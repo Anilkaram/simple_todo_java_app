@@ -27,6 +27,14 @@
             <version>3.0.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version> <!-- or 4.0.4 for older Tomcat versions -->
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
